@@ -1,81 +1,56 @@
-.gallery-item {
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  width: 100%
-}
-
-.gallery-columns-2 .gallery-item {
-  max-width: 50%
-}
-
-.gallery-columns-3 .gallery-item {
-  max-width: 33.33%
-}
-
-.gallery-columns-4 .gallery-item {
-  max-width: 25%
-}
-
-.gallery-columns-5 .gallery-item {
-  max-width: 20%
-}
-
-.gallery-columns-6 .gallery-item {
-  max-width: 16.66%
-}
-
-.gallery-columns-7 .gallery-item {
-  max-width: 14.28%
-}
-
-.gallery-columns-8 .gallery-item {
-  max-width: 12.5%
-}
-
-.gallery-columns-9 .gallery-item {
-  max-width: 11.11%
-}
-
-.gallery-caption {
-  display: block
-}
-
-.ast-blog-featured-section .gallery {
-  margin-bottom: 0
-}
-
-.single .entry-content .gallery {
-  margin-left: -10px;
-  margin-right: -10px
-}
-
-.gallery-caption {
-  color: #000;
-  padding: 10px;
-  border-radius: 0 0 2px 2px;
-  border: 1px solid var(--ast-border-color);
-  border-top: none;
-  font-size: .9em
-}
-
-.gallery-icon {
-  border-bottom: 0;
-  border-radius: 2px 2px 0 0;
-  border: 1px solid var(--ast-border-color);
-  overflow: hidden
-}
-
-.gallery-item {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 10px;
-  border-radius: 2px
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
-.gallery-item:last-child {
-  margin-bottom: 2em
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.elementor-image-gallery .gallery-icon {
-  border: none
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: #f4f4f4;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.projects {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
